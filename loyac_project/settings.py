@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 import os
 from pathlib import Path
 from datetime import timedelta
-SENDGRID_API_KEY = os.getenv('SENDGRID_API_KEY')
+# SENDGRID_API_KEY = os.getenv('SENDGRID_API_KEY')
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 
@@ -130,11 +130,12 @@ USE_L10N = True
 
 USE_TZ = True
 
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = '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'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
+#-------------------ASK ME FOR EMAIL API KEY, I CAN'T UPLOAD THIS PART ON GITHUB FOR SECURITY REAOSONS-----------------
+# EMAIL_HOST = 'smtp.sendgrid.net'
+# EMAIL_HOST_USER = 'apikey'
+# EMAIL_HOST_PASSWORD = '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'
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
 
 
 # Static files (CSS, JavaScript, Images)
